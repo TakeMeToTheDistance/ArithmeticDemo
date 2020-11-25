@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "DetonatedBalloonTest.h"
 #import "TwoNumberSumTest.h"
+#import "RiseDropCharTest.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [DetonatedBalloonTest detonatedBalloon];
-    [TwoNumberSumTest twoSum];
+//    [TwoNumberSumTest twoSum];
+    [RiseDropCharTest riseDropChar];
     // Do any additional setup after loading the view.
 }
 
