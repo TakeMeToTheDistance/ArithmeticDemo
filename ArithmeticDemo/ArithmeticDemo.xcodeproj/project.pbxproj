@@ -17,6 +17,7 @@
 		8400FC60256B6514005911C4 /* DetonatedBalloonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400FC5F256B6514005911C4 /* DetonatedBalloonTest.m */; };
 		84176F4C256E293E0008F506 /* RiseDropCharTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84176F4B256E293E0008F506 /* RiseDropCharTest.m */; };
 		84CD4DFF256B96150040BD6E /* TwoNumberSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD4DFE256B96150040BD6E /* TwoNumberSumTest.m */; };
+		84EC66AB256F7F640009FCF1 /* LargestSpacingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC66AA256F7F640009FCF1 /* LargestSpacingTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		84176F4B256E293E0008F506 /* RiseDropCharTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiseDropCharTest.m; sourceTree = "<group>"; };
 		84CD4DFD256B96150040BD6E /* TwoNumberSumTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoNumberSumTest.h; sourceTree = "<group>"; };
 		84CD4DFE256B96150040BD6E /* TwoNumberSumTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoNumberSumTest.m; sourceTree = "<group>"; };
+		84EC66A9256F7F640009FCF1 /* LargestSpacingTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargestSpacingTest.h; sourceTree = "<group>"; };
+		84EC66AA256F7F640009FCF1 /* LargestSpacingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargestSpacingTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 		8400FC5C256B64B6005911C4 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				84EC66A8256F7F130009FCF1 /* 最大间距 */,
 				84176F49256E29120008F506 /* 上升下降字符串 */,
 				84CD4DFC256B94950040BD6E /* 两数之和 */,
 				8400FC5D256B64C3005911C4 /*  用最少数量的箭引爆气球 */,
@@ -123,6 +127,15 @@
 			path = "两数之和";
 			sourceTree = "<group>";
 		};
+		84EC66A8256F7F130009FCF1 /* 最大间距 */ = {
+			isa = PBXGroup;
+			children = (
+				84EC66A9256F7F640009FCF1 /* LargestSpacingTest.h */,
+				84EC66AA256F7F640009FCF1 /* LargestSpacingTest.m */,
+			);
+			path = "最大间距";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +167,7 @@
 				TargetAttributes = {
 					8400FC3E256B647C005911C4 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -199,6 +213,7 @@
 				8400FC55256B6482005911C4 /* main.m in Sources */,
 				84CD4DFF256B96150040BD6E /* TwoNumberSumTest.m in Sources */,
 				8400FC60256B6514005911C4 /* DetonatedBalloonTest.m in Sources */,
+				84EC66AB256F7F640009FCF1 /* LargestSpacingTest.m in Sources */,
 				8400FC47256B647C005911C4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49FU55LDJ9;
 				INFOPLIST_FILE = ArithmeticDemo/Info.plist;
@@ -349,6 +365,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cg.cg.ArithmeticDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -357,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49FU55LDJ9;
 				INFOPLIST_FILE = ArithmeticDemo/Info.plist;
@@ -367,6 +386,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cg.cg.ArithmeticDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
