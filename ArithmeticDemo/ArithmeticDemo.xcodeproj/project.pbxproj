@@ -15,6 +15,7 @@
 		8400FC52256B6482005911C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8400FC50256B6482005911C4 /* LaunchScreen.storyboard */; };
 		8400FC55256B6482005911C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400FC54256B6482005911C4 /* main.m */; };
 		8400FC60256B6514005911C4 /* DetonatedBalloonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400FC5F256B6514005911C4 /* DetonatedBalloonTest.m */; };
+		84049ECD2570D64B003B42C4 /* FourNumbersPlusTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84049ECC2570D64B003B42C4 /* FourNumbersPlusTest.m */; };
 		84176F4C256E293E0008F506 /* RiseDropCharTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84176F4B256E293E0008F506 /* RiseDropCharTest.m */; };
 		84CD4DFF256B96150040BD6E /* TwoNumberSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD4DFE256B96150040BD6E /* TwoNumberSumTest.m */; };
 		84EC66AB256F7F640009FCF1 /* LargestSpacingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC66AA256F7F640009FCF1 /* LargestSpacingTest.m */; };
@@ -35,6 +36,8 @@
 		8400FC54256B6482005911C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8400FC5E256B6514005911C4 /* DetonatedBalloonTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetonatedBalloonTest.h; sourceTree = "<group>"; };
 		8400FC5F256B6514005911C4 /* DetonatedBalloonTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetonatedBalloonTest.m; sourceTree = "<group>"; };
+		84049ECB2570D64B003B42C4 /* FourNumbersPlusTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourNumbersPlusTest.h; sourceTree = "<group>"; };
+		84049ECC2570D64B003B42C4 /* FourNumbersPlusTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourNumbersPlusTest.m; sourceTree = "<group>"; };
 		84176F4A256E293E0008F506 /* RiseDropCharTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiseDropCharTest.h; sourceTree = "<group>"; };
 		84176F4B256E293E0008F506 /* RiseDropCharTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiseDropCharTest.m; sourceTree = "<group>"; };
 		84CD4DFD256B96150040BD6E /* TwoNumberSumTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoNumberSumTest.h; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 		8400FC5C256B64B6005911C4 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				84049ECA2570D619003B42C4 /* 四数相加|| */,
 				84EC66A8256F7F130009FCF1 /* 最大间距 */,
 				84176F49256E29120008F506 /* 上升下降字符串 */,
 				84CD4DFC256B94950040BD6E /* 两数之和 */,
@@ -107,6 +111,15 @@
 				8400FC5F256B6514005911C4 /* DetonatedBalloonTest.m */,
 			);
 			path = " 用最少数量的箭引爆气球";
+			sourceTree = "<group>";
+		};
+		84049ECA2570D619003B42C4 /* 四数相加|| */ = {
+			isa = PBXGroup;
+			children = (
+				84049ECB2570D64B003B42C4 /* FourNumbersPlusTest.h */,
+				84049ECC2570D64B003B42C4 /* FourNumbersPlusTest.m */,
+			);
+			path = "四数相加||";
 			sourceTree = "<group>";
 		};
 		84176F49256E29120008F506 /* 上升下降字符串 */ = {
@@ -214,6 +227,7 @@
 				84CD4DFF256B96150040BD6E /* TwoNumberSumTest.m in Sources */,
 				8400FC60256B6514005911C4 /* DetonatedBalloonTest.m in Sources */,
 				84EC66AB256F7F640009FCF1 /* LargestSpacingTest.m in Sources */,
+				84049ECD2570D64B003B42C4 /* FourNumbersPlusTest.m in Sources */,
 				8400FC47256B647C005911C4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

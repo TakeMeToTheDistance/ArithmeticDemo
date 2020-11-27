@@ -11,6 +11,7 @@
 #import "TwoNumberSumTest.h"
 #import "RiseDropCharTest.h"
 #import "LargestSpacingTest.h"
+#import "FourNumbersPlusTest.h"
 @interface ViewController ()
 
 @end
@@ -22,7 +23,8 @@
 //    [DetonatedBalloonTest detonatedBalloon];
 //    [TwoNumberSumTest twoSum];
 //    [RiseDropCharTest riseDropChar];
-    [LargestSpacingTest largestSpacing];
+//    [LargestSpacingTest largestSpacing];
+    [FourNumbersPlusTest fourNumbersPlus];
     // Do any additional setup after loading the view.
 }
 
