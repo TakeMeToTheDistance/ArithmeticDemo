@@ -107,6 +107,42 @@ struct Result {
         }
     }
     NSLog(@"ans === %d",ans);
+    char ch[] = "hello world!";
+
+    char_reverse(ch);
+}
+void char_reverse (char *cha) {
+    // 定义头部指针
+    char *begin = cha;
+    // 定义尾部指针
+    char *end = cha + strlen(cha) -1;
+    while (begin < end) {
+        char temp = *begin;
+        *(begin++) = *end;
+        *(end--) = temp;
+    }
+    NSLog(@"%s",cha);
 }
 
+
+/**
+ 复杂度分析
+
+ 时间复杂度：O(n^2)
+  )。我们使用了两次二重循环，时间复杂度均为 O(n^2)
+  )。在循环中对哈希映射进行的修改以及查询操作的期望时间复杂度均为 O(1)O(1)，因此总时间复杂度为 O(n^2)O(n
+ 2
+  )。
+
+ 空间复杂度：O(n^2)，即为哈希映射需要使用的空间。在最坏的情况下，A[i]+B[j]A[i]+B[j] 的值均不相同，因此值的个数为 n^2n
+ 2
+  ，也就需要 O(n^2)O(n
+ 2
+  ) 的空间。
+
+ 作者：LeetCode-Solution
+ 链接：https://leetcode-cn.com/problems/4sum-ii/solution/si-shu-xiang-jia-ii-by-leetcode-solution/
+ 来源：力扣（LeetCode）
+ 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+ */
 @end
